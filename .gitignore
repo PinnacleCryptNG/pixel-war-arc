@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Circle credentials
+.circle/
+*recovery*
+*recovery_file*
+
+# Foundry
+contracts/out/
+contracts/cache/
+
+# Build
+dist/
+build/
